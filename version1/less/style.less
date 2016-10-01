@@ -1,0 +1,99 @@
+@import "_app-variables";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto'; 
+	color:@fontColor;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+input[type=text] {
+	width: 200px;
+}
+
+.small-icon {
+	width: 20px;
+	height: 20px;
+}
+
+header {
+    height: 62px;
+    border-bottom: 2px solid @orange;
+    position: fixed;
+    z-index: 1;
+    background: @white;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+	
+	.search-box {
+		width: 200px;
+		right: 10px;
+		top: 18px;
+		position: absolute;
+		
+		.search-text {
+		    position: absolute;
+			right: 25px;
+			border-radius: 15px;
+			border: 1px solid @grayC;
+			height: 25px;
+		}
+		
+		.search-icon {
+		    width: 25px;
+			height: 25px;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	}
+	
+	.logo-image {
+	    float: left;
+		width: 60px;
+		height: 60px;
+	}
+	
+	.logo-text {
+	    font-size: 30px;
+		font-weight: bold;
+		float: left;
+		margin: 10px;
+	}
+	
+	ul.navigation {
+		float: left;
+		margin: 20px;
+		color: @gray9;
+		li {
+			display: inline-block;
+			margin: 0 20px;
+			font-weight: bold;
+		}
+	}
+}
+
+.bg-slider {
+	background: url(../images/bg-slider.jpg);
+	background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;	
+}

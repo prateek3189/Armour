@@ -3,10 +3,41 @@
 	<head>
 		<title><?php echo TITLE;?></title>
 		<link rel='shortcut icon' href='<?php echo IMAGE_PATH_HTTP;?>logo.png' type='image/x-icon'/ >
+		<!-- Including CSS -->
+		<link href='<?php echo CSS_PATH_HTTP;?>style.css' type='text/css' rel="stylesheet"/ >
 	</head>
 	<body>
-		<h1>This is a Heading</h1>
-		<p>This is a paragraph.</p>
+		<header>
+			<img src="<?php echo IMAGE_PATH_HTTP;?>/logo.png" class="logo-image" width="60px" height="60px;"/>
+			<span class="logo-text">Armour Solution</span>
+			<ul class="navigation">
+				<li><a>Our Technologies</a></li>
+				<li>Our Clients</li>
+				<li>About Us</li>
+				<li>Contact Us</li>
+				
+			</ul>
+			<div class="search-box">
+				<input type="text" class="search-text" name="search_box" id="search_box"/>
+				<a href=""><img src="<?php echo IMAGE_PATH_HTTP;?>search-icon.png" class="small-icon search-icon"/></a>
+			</div>
+		</header>
+		<section class="slider-box bg-slider">
+			Home Slider
+		</section>
+		<!--
+		
+		<section>
+			Home description
+		</section>
+		<section>
+			Our support
+		</section>
+		<section>
+			Our Client
+		</section>		
+		<footer>Footer</footer>
+		-->
 	</body>
 </html>
 

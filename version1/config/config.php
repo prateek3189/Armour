@@ -27,7 +27,7 @@ define("CSV_DOWNLOAD_PATH_HTTP",FOLDER_PATH_HTTP."CSV/Sample/candidate.csv");
 define("CSV_UPLOAD_PATH",FOLDER_PATH."CSV/Upload/");
 
 //======== CSS PATH =============//
-define("CSS_PATH_HTTP",FOLDER_PATH_HTTP."includes/style/");
+define("CSS_PATH_HTTP",FOLDER_PATH_HTTP."css/");
 
 //======== IMAGE PATH =============//
 define("IMAGE_PATH_HTTP",FOLDER_PATH_HTTP."images/");
