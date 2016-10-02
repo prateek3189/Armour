@@ -31,7 +31,7 @@
 			<ul class="navigation">
 				<li><a href="<?php echo FOLDER_PATH_HTTP;?>coming-soon.php">Our Technologies</a></li>
 				<li><a href="<?php echo FOLDER_PATH_HTTP;?>coming-soon.php">Our Clients</a></li>
-				<li><a href="<?php echo FOLDER_PATH_HTTP;?>coming-soon.php">Projects</a></li>
+				<li><a href="<?php echo FOLDER_PATH_HTTP;?>coming-soon.php">Products</a></li>
 				<li><a href="<?php echo FOLDER_PATH_HTTP;?>coming-soon.php">About Us</a></li>
 				<li><a href="<?php echo FOLDER_PATH_HTTP;?>coming-soon.php">Contact Us</a></li>
 				
