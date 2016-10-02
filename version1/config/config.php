@@ -22,10 +22,6 @@ date_default_timezone_set("Asia/Calcutta");
 define("FOLDER_PATH",BASE_PATH);
 define("FOLDER_PATH_HTTP",BASE_URL);
 
-//=============== CSV Download ================//
-define("CSV_DOWNLOAD_PATH_HTTP",FOLDER_PATH_HTTP."CSV/Sample/candidate.csv");
-define("CSV_UPLOAD_PATH",FOLDER_PATH."CSV/Upload/");
-
 //======== CSS PATH =============//
 define("CSS_PATH_HTTP",FOLDER_PATH_HTTP."css/");
 
@@ -33,37 +29,16 @@ define("CSS_PATH_HTTP",FOLDER_PATH_HTTP."css/");
 define("IMAGE_PATH_HTTP",FOLDER_PATH_HTTP."images/");
 define("IMAGE_PATH",FOLDER_PATH."images/");
 
-define("UPLOAD_IMAGE_PATH_DIR",FOLDER_PATH."upload/");
-define("UPLOAD_IMAGE_PATH_HTTP",FOLDER_PATH_HTTP."upload/");
-
 //======== VIEW PATH =============//
 define("VIEW_PATH",FOLDER_PATH."views/");
 
-//======== class config Path =============//
-define("CONFIG_CLASS_PATH", BASE_PATH."config/");
-
-//======== Upload Images Path =============//
-define("UPLOAD_IMAGE_PATH", IMAGE_PATH_HTTP."upload/");
-
 //======== NAVIGATION PATH =============//
-define("NAVIGATION_PATH",FOLDER_PATH."includes/navigation/");
-define("JS_PATH",FOLDER_PATH_HTTP."includes/javascript/");
-define("MODULE_PATH",FOLDER_PATH."includes/modules/");
-define("CLASS_DIR_PATH",FOLDER_PATH."includes/classes/");
-define("MODULE_PATH_HTTP",FOLDER_PATH_HTTP."includes/modules/");
+define("NAVIGATION_PATH",FOLDER_PATH."navigation/");
 
-//========FCK PATH =============//
-define("FCKPATH",SERVER_PATH."includes/fckeditor/");
-define("INCLUDE_DIR_PATH",FOLDER_PATH."includes/");
-define("MODULES_DIR_PATH",INCLUDE_DIR_PATH."modules/");
-define("FUNCTION_DIR_PATH",INCLUDE_DIR_PATH."functions/");
+//======== PLUGIN PATH =============//
+define("PLUGIN_PATH",FOLDER_PATH."plugin/");
 
-//Pagination Admin
-define("INCREMENT_BY",5);
-define("INCREMENT_BY_GL",9);
-define("INCREMENT_BY_AGL",8);
-
-//======== SENDEMAIL PATH =============//
-define("EMAIL_DIR_PATH",MODULES_DIR_PATH."email/");
+//======== JS PATH =============//
+define("JS_PATH_HTTP",FOLDER_PATH_HTTP."js/");
 
 ?>

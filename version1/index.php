@@ -13,10 +13,10 @@
 	$page='index.php';
 	
 	// include CSS file array	
-  	$AddCSS = array("style");
+  	$AddCSS = array("style", "slider");
 	
 	// include JS file array
-   	$AddJS = array("jquery", "common");
+   	$AddJS = array("jquery", "jssor.slider-21.1.6.mini", "slider");
 	
 	include (VIEW_PATH."index.html");
 ?>

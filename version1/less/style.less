@@ -17,6 +17,19 @@ ul {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+	color: @grayA;
+}
+
+a:hover {
+	color: @gray2;
+}
+
+h2 {
+	color: @orange;
+}
+
 input[type=text] {
 	width: 200px;
 }
@@ -28,14 +41,11 @@ input[type=text] {
 
 header {
     height: 62px;
-    border-bottom: 2px solid @orange;
     position: fixed;
     z-index: 1;
     background: @white;
-    width: 100%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    top: 0;
+	width:100%;
 	
 	.search-box {
 		width: 200px;
@@ -64,6 +74,7 @@ header {
 	    float: left;
 		width: 60px;
 		height: 60px;
+		margin:5px;
 	}
 	
 	.logo-text {
@@ -71,29 +82,54 @@ header {
 		font-weight: bold;
 		float: left;
 		margin: 10px;
+		color: @orange;
 	}
 	
 	ul.navigation {
-		float: left;
-		margin: 20px;
+		float: right;
+		margin: 20px 0;
 		color: @gray9;
 		li {
 			display: inline-block;
 			margin: 0 20px;
 			font-weight: bold;
+			font-size:14px;
 		}
 	}
 }
 
 .bg-slider {
-	background: url(../images/bg-slider.jpg);
+	background: @orangeBg;
 	background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    left: 0;
+    margin-top: 80px;
     width: 100%;
-    height: 100%;	
+    height: 100%;
+}
+
+.history {
+	margin-top: 50px;
+	
+	.history-desc {
+		margin: 0 40px;
+	}
+	
+	article {
+		width: 55%;
+		text-align: justify;
+		font-size:20px;
+		float: left;
+
+	}
+	
+	h2 {
+		float: left;
+		width: 55%;
+	}
+	
+	img.history-img {
+		float:right;
+		width: 40%;
+	}
 }

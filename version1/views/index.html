@@ -1,35 +1,35 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title><?php echo TITLE;?></title>
-		<link rel='shortcut icon' href='<?php echo IMAGE_PATH_HTTP;?>logo.png' type='image/x-icon'/ >
-		<!-- Including CSS -->
-		<link href='<?php echo CSS_PATH_HTTP;?>style.css' type='text/css' rel="stylesheet"/ >
-	</head>
-	<body>
-		<header>
-			<img src="<?php echo IMAGE_PATH_HTTP;?>/logo.png" class="logo-image" width="60px" height="60px;"/>
-			<span class="logo-text">Armour Solution</span>
-			<ul class="navigation">
-				<li><a>Our Technologies</a></li>
-				<li>Our Clients</li>
-				<li>About Us</li>
-				<li>Contact Us</li>
-				
-			</ul>
-			<div class="search-box">
-				<input type="text" class="search-text" name="search_box" id="search_box"/>
-				<a href=""><img src="<?php echo IMAGE_PATH_HTTP;?>search-icon.png" class="small-icon search-icon"/></a>
-			</div>
-		</header>
+<?php 
+	include(NAVIGATION_PATH.'header.php');
+?>
+		<!-- Slider	-->
 		<section class="slider-box bg-slider">
-			Home Slider
+			<?php 
+				include(PLUGIN_PATH.'slider.php');
+			?>
+		</section>
+		
+		<!-- History	-->
+		<section class="history">
+			<section class="history-desc">
+				<h2>History</h2>
+				<article class="history-content">
+					<img src="<?php echo IMAGE_PATH_HTTP;?>start-quote.png" width="20" height="20"/>
+					<span class="history-content-data">
+						In the IT business world, a client looks for delivery excellence. 
+						Throughout Cybage, the attributes contributing to delivery excellence 
+						are comprehensively optimized, implemented, and internalized, through a 
+						sophisticated business management software system known as ExcelShore®. 
+						This model of operational excellence is dashboard driven and possesses 
+						the intelligence of a closed loop system that holds and functions around 
+						a vast array of data from the past.
+					</span>
+					<img src="<?php echo IMAGE_PATH_HTTP;?>end-quote.png" width="20" height="20"/>
+				</article>
+				<img class="history-img" src="<?php echo IMAGE_PATH_HTTP;?>history.jpg"/>
 		</section>
 		<!--
 		
-		<section>
-			Home description
-		</section>
+		
 		<section>
 			Our support
 		</section>
